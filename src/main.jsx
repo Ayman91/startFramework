@@ -14,9 +14,11 @@ import Contact from './pages/Contact/Contact';
 import NotFound from './pages/Not Found/NotFound';
 import Portfolio from './pages/Portfolio/Portfolio';
 
+//* fontawesome library
+library.add(fas, fab);
+
 //* react-router-dom
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-library.add(fas, fab);
 
 const router = createBrowserRouter([
   {
