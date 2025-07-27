@@ -1,0 +1,32 @@
+.portfolioLine::before,
+.portfolioLine::after {
+  background-color: black;
+}
+
+.custom_button {
+  all: unset;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.custom_button:hover,
+.custom_button:focus {
+  outline: none;
+  box-shadow: none;
+  border-radius: 0.5rem;
+}
+
+.layer {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 0.5rem;
+  opacity: 0;
+  background-color: var(--homePage-background-color);
+  &:hover {
+    opacity: 0.8;
+  }
+}

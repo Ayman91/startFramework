@@ -1,0 +1,4 @@
+.active {
+  transition: background-color 0.5s;
+  background-color: var(--homePage-background-color);
+}

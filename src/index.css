@@ -1,0 +1,43 @@
+:root {
+  --primary-background-color: #2c3e50;
+  --homePage-background-color: #1abc9c;
+  --color-white: #fff;
+  --color-black: #000;
+}
+
+/** Main theme classes */
+
+.primary_bg-color {
+  background-color: var(--primary-background-color);
+}
+
+.home_bg_color {
+  background-color: var(--homePage-background-color);
+}
+
+/* underline line styles */
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.line::before,
+.line::after {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  background-color: white;
+}
+
+.line::before {
+  right: 50%;
+  margin-right: 20px;
+}
+
+.line::after {
+  left: 50%;
+  margin-left: 20px;
+}

@@ -1,0 +1,4 @@
+.contactLine::before,
+.contactLine::after {
+  background-color: black;
+}
